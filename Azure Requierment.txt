@@ -1,0 +1,85 @@
+Azure
+
+### Requirements for Script Implementation on Azure
+
+#### **1. Project Overview**
+
+The project requires implementing a Python script to be executed using Azure Functions. The script will scrape a web page, download files, store them, and extract information from XML files. File storage will be managed via Azure Blob Storage, and extracted data will be stored in a PostgreSQL database hosted on Azure.
+
+#### **2. Script Details**
+
+- **Language**: Python
+- **Functionality**: 
+  - Scrape a specific web page.
+  - Download files from the web page.
+  - Store downloaded files in Azure Blob Storage.
+  - Extract information from XML files and store the extracted data in a PostgreSQL database.
+- **Dependencies**: Requests, BeautifulSoup4, xml.etree.ElementTree, psycopg2 (or any other library needed for interacting with PostgreSQL).
+
+#### **3. Azure Functions**
+
+- **Plan Type**: Consumption Plan.
+- **Trigger**: 
+  - The script should execute every hour.
+  - It should also be manually executable via an HTTP call.
+- **Resource Configuration**: 
+  - Maximum execution time: 50 minutes.
+  - Memory: 2 GB (configurable as needed).
+- **Execution Environment**: Python 3.9.
+
+#### **4. Azure Blob Storage**
+
+- **Purpose**: 
+  - Store files downloaded from the web page.
+  - Store processed files (XML) and their results.
+- **Storage Requirements**:
+  - Creation of a specific container for input files.
+  - Creation of a specific container for processed files.
+- **Access and Security**: 
+  - Access to the containers should be restricted to the Azure Function and authorized users.
+  - Use of Shared Access Signatures (SAS) to provide temporary access to external users.
+  - Encryption of data at rest.
+
+#### **5. Azure PostgreSQL Database**
+
+- **Purpose**: 
+  - Store data extracted from processed XML files.
+- **Database Configuration**:
+  - PostgreSQL version: PostgreSQL 13.
+  - Initial database size: 5 GB (scalable as needed).
+  - Automatic backup and recovery configuration.
+- **Access and Security**:
+  - Secure access configuration from the Azure Function using secure connection credentials.
+  - Implement firewall rules to allow access only from authorized IP addresses.
+  - Encryption of data at rest and in transit.
+
+#### **6. Security and Compliance**
+
+- **Authentication and Authorization**:
+  - Implementation of Azure AD to manage access to Azure Functions and associated resources.
+- **Encryption**:
+  - Data at rest in Blob Storage and PostgreSQL should be encrypted.
+  - Data in transit should use HTTPS/TLS.
+
+#### **7. Monitoring and Logging**
+
+- **Monitoring Requirements**:
+  - Configuration of Application Insights to monitor the execution of Azure Functions.
+  - Detailed logging of errors and successful script executions.
+- **Alerts**:
+  - Configuration of alerts for script execution failures.
+  - Alerts for anomalous changes in database performance.
+
+#### **8. Support and Maintenance**
+
+- **Documentation**:
+  - Detailed instructions for deploying and configuring the script and services on Azure.
+  - User manual for manual script execution.
+- **Support**:
+  - Ongoing support services for troubleshooting and security updates.
+
+#### **9. Additional Information**
+
+- **Budget**: Provide details on the available budget for the implementation.
+- **Timeline**: Specify expected timelines for the complete implementation of the project.
+- **Scalability**: Considerations for automatic scaling in case of increased workload.
