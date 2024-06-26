@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+					<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sts="dian:gov:co:facturaelectronica:Structures-2-1" xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2     http://docs.oasis-open.org/ubl/os-UBL-2.1/xsd/maindoc/UBL-Invoice-2.1.xsd">
+					<ext:UBLExtensions><ext:UBLExtension>
+							<ext:ExtensionContent>
+							<sts:DianExtensions>
+								<sts:InvoiceControl>
+									<sts:InvoiceAuthorization>18764065232398</sts:InvoiceAuthorization>
+									<sts:AuthorizationPeriod>
+										<cbc:StartDate>2024-02-08</cbc:StartDate>
+										<cbc:EndDate>2025-02-08</cbc:EndDate>
+									</sts:AuthorizationPeriod>
+									<sts:AuthorizedInvoices><sts:Prefix>E</sts:Prefix><sts:From>695</sts:From>
+										<sts:To>750</sts:To>
+									</sts:AuthorizedInvoices>
+								</sts:InvoiceControl>
+								<sts:InvoiceSource>
+									<cbc:IdentificationCode listAgencyID="6" listAgencyName="United Nations Economic Commission for Europe" listSchemeURI="urn:oasis:names:specification:ubl:codelist:gc:CountryIdentificationCode-2.1">CO</cbc:IdentificationCode>
+								</sts:InvoiceSource>
+								<sts:SoftwareProvider>
+									<sts:ProviderID schemeAgencyID="195" schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)" schemeID="5" schemeName="31">830020470</sts:ProviderID>
+									<sts:SoftwareID schemeAgencyID="195" schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)">3de9237f-c5dc-492a-b801-1c11d041ab7e</sts:SoftwareID>
+								</sts:SoftwareProvider>
+								<sts:SoftwareSecurityCode schemeAgencyID="195" schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)">1a2477bf50846869c74a725d63e9678210fcb87b5b7236cbc3d7679fa9970bbb8437f528e2ee09eeec285ce97fa8311f</sts:SoftwareSecurityCode>
+								<sts:AuthorizationProvider>
+									<sts:AuthorizationProviderID schemeAgencyID="195" schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)" schemeID="4" schemeName="31">800197268</sts:AuthorizationProviderID>
+								</sts:AuthorizationProvider>
+								<sts:QRCode>https://catalogo-vpfe.dian.gov.co/document/searchqr?documentkey=366cad893367862222a0502bf2a359c9c44e385080c7adde38880351395aaa1f6ceee057569d68d0344384b8cab7f1f2</sts:QRCode>
+							</sts:DianExtensions>
+						</ext:ExtensionContent>
+						</ext:UBLExtension>
+						<ext:UBLExtension>
+							<ext:ExtensionContent><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1271348087"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xmldsig-19272a62-2e56-4c8e-8194-0e187f7c1b44-ref0" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>jYw7hnzM5dUt7MALEGEu2hLoPdZ64OmqO54jy442kFgGLIEhV0hO99qpMr+QsWozFQ59bfvlnrxUY15MfQj6gA==</ds:DigestValue></ds:Reference><ds:Reference Id="xmldsig-19272a62-2e56-4c8e-8194-0e187f7c1b44-ref1" URI="#KeyInfo"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>Hluv17Z/NScmIwwuZIrdWroL1ea2GeC6lVkNIVbgBCGKzQjUZ847hLOVaDfnfuujveOs89uHa8lkjErTi1P5/g==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-890836021"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>ElkaSzEqvApOB38/M6NoXZD7Z2m1lCQ+Z79yqBOQnjjayPqaCJ/AC09khfUgL7gVBvoRxQJhGpqFYTYItZz3Eg==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="xmldsig-19272a62-2e56-4c8e-8194-0e187f7c1b44-sigvalue">MrYelpQAUfQOZMKmEXt+iGa4ThMRfoVpvlI5aF0uc1B/XgjdGXZbPel5MJnaKEM1KjKvGB4cCl5jcRhg4GqO7XgNbZlciRJdlMEhN1P0NHsD/l7VWPmh/5CcYugaVZDUuQv28MVLnodwWNonNsuAidyvn3+kbFlTHG2fXG86uo/UwduRk6TXtzj+EVmcIXw26A+rjB09K6C8Dz+zigRx0R4fxHHjmhyGRgzcJmc5/dcV9pUjmEGM8jorMzavKCcZMBTiqB6pN1RyHwuvlEcWO8ytHXgJ6tyTlIZ0Q/6HRxLfWJj0Yb3lIJH+tkqFAE8urKx2ESqaLIHBTqFvx1zCDQ==</ds:SignatureValue><ds:KeyInfo Id="KeyInfo"><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1271348087"><xades:SignedProperties Id="SignedProperties-890836021"><xades:SignedSignatureProperties><xades:SigningTime>2024-06-11T19:18:48-05:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>RU2FM4WHkPB+/5D5Y0lngJWPTJVIVMM/6ptWSaidRYcURQvwWaTmhJnUDmHaBo/SsVpQ784OTdkAheyT39P4yA==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>C=CO,L=Bogota D.C.,O=Andes SCD,OU=Division de certificacion entidad final,CN=CA ANDES SCD S.A. Clase II v2,1.2.840.113549.1.9.1=#1614696e666f40616e6465737363642e636f6d2e636f</ds:X509IssuerName><ds:X509SerialNumber>6244826300543202753</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>rY/PcqpNrHUICtThNKQb139/EaLmoJNbd+mL3hDHAVLX9jFnXX11FtlL/4AmyZcT+GC8QF0ppVeBdskGOIBg1Q==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>C=CO,L=Bogota D.C.,O=Andes SCD,OU=Division de certificacion,CN=ROOT CA ANDES SCD S.A.,1.2.840.113549.1.9.1=#1614696e666f40616e6465737363642e636f6d2e636f</ds:X509IssuerName><ds:X509SerialNumber>8136867327090815624</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>L+GR4ozHO/SpmNwQVKr25N+ItB6Xdx9tq2zvkPe4NXOFKdzNnmwNetYg1w14zfWP8XFejj5bZtxmbdy9d2GPjQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>C=CO,L=Bogota D.C.,O=Andes SCD,OU=Division de certificacion,CN=ROOT CA ANDES SCD S.A.,1.2.840.113549.1.9.1=#1614696e666f40616e6465737363642e636f6d2e636f</ds:X509IssuerName><ds:X509SerialNumber>3184328748892787122</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyId><xades:SigPolicyId><xades:Identifier>https://facturaelectronica.dian.gov.co/politicadefirma/v2/politicadefirmav2.pdf</xades:Identifier></xades:SigPolicyId><xades:SigPolicyHash><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>Zcjw1Z9nGQn2j6NyGx8kAaLbOfJGd/fJxRTCeirlqAg7zRG27piJkJOpflGu7XACpMj9hC6dVMcCyzqHxxPZeQ==</ds:DigestValue></xades:SigPolicyHash></xades:SignaturePolicyId></xades:SignaturePolicyIdentifier><xades:SignerRole><xades:ClaimedRoles><xades:ClaimedRole>third party</xades:ClaimedRole></xades:ClaimedRoles></xades:SignerRole></xades:SignedSignatureProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></ext:ExtensionContent>
+						</ext:UBLExtension>
+					</ext:UBLExtensions>
+					<cbc:UBLVersionID>UBL 2.1</cbc:UBLVersionID><cbc:CustomizationID>10</cbc:CustomizationID><cbc:ProfileID>DIAN 2.1: Factura Electrónica de Venta</cbc:ProfileID><cbc:ProfileExecutionID>1</cbc:ProfileExecutionID><cbc:ID>E743</cbc:ID>
+					<cbc:UUID schemeID="1" schemeName="CUFE-SHA384">366cad893367862222a0502bf2a359c9c44e385080c7adde38880351395aaa1f6ceee057569d68d0344384b8cab7f1f2</cbc:UUID>
+					<cbc:IssueDate>2024-06-11</cbc:IssueDate>
+					<cbc:IssueTime>07:18:47-05:00</cbc:IssueTime>
+					<cbc:InvoiceTypeCode>01</cbc:InvoiceTypeCode><cbc:Note>{ 'Son': '' }</cbc:Note><cbc:DocumentCurrencyCode>COP</cbc:DocumentCurrencyCode>
+					<cbc:LineCountNumeric>4</cbc:LineCountNumeric><cac:AccountingSupplierParty>
+						<cbc:AdditionalAccountID schemeAgencyID="195">1</cbc:AdditionalAccountID>
+						<cac:Party>
+							<cac:PartyName>
+								<cbc:Name>BACKTEAM COLOMBIA S.A.S</cbc:Name>
+							</cac:PartyName>
+							<cac:PhysicalLocation>
+								<cac:Address>
+									<cbc:ID>11001</cbc:ID>
+									<cbc:CityName>Bogota, D.C.</cbc:CityName>
+									<cbc:CountrySubentity>Bogota</cbc:CountrySubentity>
+									<cbc:CountrySubentityCode>11</cbc:CountrySubentityCode>
+									<cac:AddressLine>
+										<cbc:Line>Avenida Carrera 15  104-30 of 406</cbc:Line>
+									</cac:AddressLine>
+									<cac:Country>
+										<cbc:IdentificationCode>CO</cbc:IdentificationCode>
+										<cbc:Name languageID="es">Colombia</cbc:Name>
+									</cac:Country>
+								</cac:Address>
+							</cac:PhysicalLocation>
+							<cac:PartyTaxScheme>
+								<cbc:RegistrationName>BACKTEAM COLOMBIA S.A.S</cbc:RegistrationName>
+								<cbc:CompanyID schemeAgencyID="195" schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)" schemeID="1" schemeName="31">901274608</cbc:CompanyID><cbc:TaxLevelCode listName="48">R-99-PN</cbc:TaxLevelCode><cac:RegistrationAddress>
+									<cbc:ID>11001</cbc:ID>
+									<cbc:CityName>Bogota, D.C.</cbc:CityName>
+									<cbc:CountrySubentity>Bogota</cbc:CountrySubentity>
+									<cbc:CountrySubentityCode>11</cbc:CountrySubentityCode>
+									<cac:AddressLine>
+										<cbc:Line>Avenida Carrera 15  104-30 of 406</cbc:Line>
+									</cac:AddressLine>
+									<cac:Country>
+										<cbc:IdentificationCode>CO</cbc:IdentificationCode>
+										<cbc:Name languageID="es">Colombia</cbc:Name>
+									</cac:Country>
+								</cac:RegistrationAddress>
+								<cac:TaxScheme>
+									<cbc:ID>01</cbc:ID>
+									<cbc:Name>IVA</cbc:Name>
+								</cac:TaxScheme>
+							</cac:PartyTaxScheme>
+							<cac:PartyLegalEntity>
+								<cbc:RegistrationName>BACKTEAM COLOMBIA S.A.S</cbc:RegistrationName>
+								<cbc:CompanyID schemeAgencyID="195" schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)" schemeID="1" schemeName="31">901274608</cbc:CompanyID><cac:CorporateRegistrationScheme>
+										<cbc:ID>E</cbc:ID>
+									</cac:CorporateRegistrationScheme></cac:PartyLegalEntity>
+						<cac:Contact>
+							<cbc:Telephone>489 8202 3015396726</cbc:Telephone>
+							<cbc:ElectronicMail>info@backteam.co</cbc:ElectronicMail>
+						</cac:Contact>
+						</cac:Party>
+					</cac:AccountingSupplierParty><cac:AccountingCustomerParty>
+					<cbc:AdditionalAccountID schemeAgencyID="195">1</cbc:AdditionalAccountID>
+					<cac:Party><cac:PartyName>
+							<cbc:Name>Julius Commerce Colombia Sas</cbc:Name>
+						</cac:PartyName><cac:PhysicalLocation>
+								<cac:Address>
+									<cbc:ID>11001</cbc:ID>
+									<cbc:CityName>Bogotá, D.C.</cbc:CityName>
+									<cbc:CountrySubentity>Bogotá</cbc:CountrySubentity>
+									<cbc:CountrySubentityCode>11</cbc:CountrySubentityCode>
+									<cac:AddressLine>
+										<cbc:Line>AK 15 104 30 OF 406</cbc:Line>
+									</cac:AddressLine>
+									<cac:Country>
+										<cbc:IdentificationCode>CO</cbc:IdentificationCode>
+										<cbc:Name languageID="es">Colombia</cbc:Name>
+									</cac:Country>
+								</cac:Address>
+							</cac:PhysicalLocation><cac:PartyTaxScheme>
+							<cbc:RegistrationName>Julius Commerce Colombia Sas</cbc:RegistrationName>
+							<cbc:CompanyID schemeAgencyID="195" schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)" schemeID="3" schemeName="31">901486599</cbc:CompanyID><cbc:TaxLevelCode listName="49">R-99-PN</cbc:TaxLevelCode><cac:RegistrationAddress>
+									<cbc:ID>11001</cbc:ID>
+									<cbc:CityName>Bogotá, D.C.</cbc:CityName>
+									<cbc:CountrySubentity>Bogotá</cbc:CountrySubentity>
+									<cbc:CountrySubentityCode>11</cbc:CountrySubentityCode>
+									<cac:AddressLine>
+										<cbc:Line>AK 15 104 30 OF 406</cbc:Line>
+									</cac:AddressLine>
+									<cac:Country>
+										<cbc:IdentificationCode>CO</cbc:IdentificationCode>
+										<cbc:Name>Colombia</cbc:Name>
+									</cac:Country>
+								</cac:RegistrationAddress><cac:TaxScheme>
+								<cbc:ID>01</cbc:ID>
+								<cbc:Name>IVA</cbc:Name>
+							</cac:TaxScheme></cac:PartyTaxScheme><cac:PartyLegalEntity>
+									<cbc:RegistrationName>Julius Commerce Colombia Sas</cbc:RegistrationName>
+									<cbc:CompanyID schemeAgencyID="195" schemeAgencyName="CO, DIAN (Dirección de Impuestos y Aduanas Nacionales)" schemeID="3" schemeName="31">901486599</cbc:CompanyID><cac:ShareholderParty>
+											<cbc:PartecipationPercent>100</cbc:PartecipationPercent>
+									</cac:ShareholderParty></cac:PartyLegalEntity><cac:Contact><cbc:Telephone>3216487957</cbc:Telephone><cbc:ElectronicMail>natalia.falabella@julius2grow.com</cbc:ElectronicMail></cac:Contact></cac:Party></cac:AccountingCustomerParty><cac:PaymentMeans>
+						<cbc:ID>2</cbc:ID>
+						<cbc:PaymentMeansCode>42</cbc:PaymentMeansCode>
+						<cbc:PaymentDueDate>2024-06-30</cbc:PaymentDueDate>
+						<cbc:PaymentID> </cbc:PaymentID>
+					</cac:PaymentMeans><cac:TaxTotal><cbc:TaxAmount currencyID="COP">455240.00</cbc:TaxAmount><cac:TaxSubtotal>
+								<cbc:TaxableAmount currencyID="COP">2396000.00</cbc:TaxableAmount>
+								<cbc:TaxAmount currencyID="COP">455240.00</cbc:TaxAmount><cac:TaxCategory>
+									<cbc:Percent>19.00</cbc:Percent>
+									<cac:TaxScheme>
+										<cbc:ID>01</cbc:ID>
+										<cbc:Name>IVA</cbc:Name>
+									</cac:TaxScheme>
+								</cac:TaxCategory>
+							</cac:TaxSubtotal></cac:TaxTotal><cac:WithholdingTaxTotal><cbc:TaxAmount currencyID="COP">263560.00</cbc:TaxAmount><cac:TaxSubtotal>
+										<cbc:TaxableAmount currencyID="COP">2396000.00</cbc:TaxableAmount>
+										<cbc:TaxAmount currencyID="COP">263560.00</cbc:TaxAmount>
+										<cac:TaxCategory>
+											<cbc:Percent>11.00</cbc:Percent>
+											<cac:TaxScheme>
+												<cbc:ID>06</cbc:ID>
+												<cbc:Name>ReteFuente</cbc:Name>
+											</cac:TaxScheme>
+										</cac:TaxCategory>
+									</cac:TaxSubtotal></cac:WithholdingTaxTotal><cac:LegalMonetaryTotal>
+					<cbc:LineExtensionAmount currencyID="COP">2396000.00</cbc:LineExtensionAmount>
+					<cbc:TaxExclusiveAmount currencyID="COP">2396000.00</cbc:TaxExclusiveAmount>
+					<cbc:TaxInclusiveAmount currencyID="COP">2851240.00</cbc:TaxInclusiveAmount><cbc:AllowanceTotalAmount currencyID="COP">0.00</cbc:AllowanceTotalAmount><cbc:ChargeTotalAmount currencyID="COP">0.00</cbc:ChargeTotalAmount><cbc:PayableAmount currencyID="COP">2851240.00</cbc:PayableAmount></cac:LegalMonetaryTotal><cac:InvoiceLine><cbc:ID>1</cbc:ID><cbc:InvoicedQuantity unitCode="94">1</cbc:InvoicedQuantity>
+						<cbc:LineExtensionAmount currencyID="COP">1436000.00</cbc:LineExtensionAmount>
+						<cbc:FreeOfChargeIndicator>false</cbc:FreeOfChargeIndicator><cac:TaxTotal>
+								<cbc:TaxAmount currencyID="COP">272840.00</cbc:TaxAmount><cbc:TaxEvidenceIndicator>false</cbc:TaxEvidenceIndicator>
+								<cac:TaxSubtotal>
+									<cbc:TaxableAmount currencyID="COP">1436000.00</cbc:TaxableAmount>
+									<cbc:TaxAmount currencyID="COP">272840.00</cbc:TaxAmount>
+									<cac:TaxCategory>
+										<cbc:Percent>19.00</cbc:Percent>
+										<cac:TaxScheme>
+											<cbc:ID>01</cbc:ID>
+											<cbc:Name>IVA</cbc:Name>
+										</cac:TaxScheme>
+									</cac:TaxCategory>
+								</cac:TaxSubtotal>
+							</cac:TaxTotal><cac:WithholdingTaxTotal><cbc:TaxAmount currencyID="COP">12435.76</cbc:TaxAmount><cac:TaxSubtotal>
+												<cbc:TaxableAmount currencyID="COP">1436000.00</cbc:TaxableAmount>
+												<cbc:TaxAmount currencyID="COP">12435.76</cbc:TaxAmount>
+												<cac:TaxCategory>
+													<cbc:Percent>0.866</cbc:Percent>
+													<cac:TaxScheme>
+														<cbc:ID>07</cbc:ID>
+														<cbc:Name>ReteICA</cbc:Name>
+													</cac:TaxScheme>
+												</cac:TaxCategory>
+											</cac:TaxSubtotal></cac:WithholdingTaxTotal><cac:WithholdingTaxTotal><cbc:TaxAmount currencyID="COP">157960.00</cbc:TaxAmount><cac:TaxSubtotal>
+												<cbc:TaxableAmount currencyID="COP">1436000.00</cbc:TaxableAmount>
+												<cbc:TaxAmount currencyID="COP">157960.00</cbc:TaxAmount>
+												<cac:TaxCategory>
+													<cbc:Percent>11.00</cbc:Percent>
+													<cac:TaxScheme>
+														<cbc:ID>06</cbc:ID>
+														<cbc:Name>ReteFuente</cbc:Name>
+													</cac:TaxScheme>
+												</cac:TaxCategory>
+											</cac:TaxSubtotal></cac:WithholdingTaxTotal><cac:Item>
+							<cbc:Description>Outsourcing Contable (Junio)</cbc:Description><cbc:BrandName> </cbc:BrandName>
+							<cbc:ModelName> </cbc:ModelName><cac:StandardItemIdentification>
+									<cbc:ID schemeAgencyID="" schemeID="999" schemeName=""/>
+								</cac:StandardItemIdentification></cac:Item>
+						<cac:Price>
+							<cbc:PriceAmount currencyID="COP">1436000.00</cbc:PriceAmount>
+							<cbc:BaseQuantity unitCode="94">1</cbc:BaseQuantity>
+						</cac:Price>
+					</cac:InvoiceLine><cac:InvoiceLine><cbc:ID>2</cbc:ID><cbc:InvoicedQuantity unitCode="94">6</cbc:InvoicedQuantity>
+						<cbc:LineExtensionAmount currencyID="COP">450000.00</cbc:LineExtensionAmount>
+						<cbc:FreeOfChargeIndicator>false</cbc:FreeOfChargeIndicator><cac:TaxTotal>
+								<cbc:TaxAmount currencyID="COP">85500.00</cbc:TaxAmount><cbc:TaxEvidenceIndicator>false</cbc:TaxEvidenceIndicator>
+								<cac:TaxSubtotal>
+									<cbc:TaxableAmount currencyID="COP">450000.00</cbc:TaxableAmount>
+									<cbc:TaxAmount currencyID="COP">85500.00</cbc:TaxAmount>
+									<cac:TaxCategory>
+										<cbc:Percent>19.00</cbc:Percent>
+										<cac:TaxScheme>
+											<cbc:ID>01</cbc:ID>
+											<cbc:Name>IVA</cbc:Name>
+										</cac:TaxScheme>
+									</cac:TaxCategory>
+								</cac:TaxSubtotal>
+							</cac:TaxTotal><cac:WithholdingTaxTotal><cbc:TaxAmount currencyID="COP">3897.00</cbc:TaxAmount><cac:TaxSubtotal>
+												<cbc:TaxableAmount currencyID="COP">450000.00</cbc:TaxableAmount>
+												<cbc:TaxAmount currencyID="COP">3897.00</cbc:TaxAmount>
+												<cac:TaxCategory>
+													<cbc:Percent>0.866</cbc:Percent>
+													<cac:TaxScheme>
+														<cbc:ID>07</cbc:ID>
+														<cbc:Name>ReteICA</cbc:Name>
+													</cac:TaxScheme>
+												</cac:TaxCategory>
+											</cac:TaxSubtotal></cac:WithholdingTaxTotal><cac:WithholdingTaxTotal><cbc:TaxAmount currencyID="COP">49500.00</cbc:TaxAmount><cac:TaxSubtotal>
+												<cbc:TaxableAmount currencyID="COP">450000.00</cbc:TaxableAmount>
+												<cbc:TaxAmount currencyID="COP">49500.00</cbc:TaxAmount>
+												<cac:TaxCategory>
+													<cbc:Percent>11.00</cbc:Percent>
+													<cac:TaxScheme>
+														<cbc:ID>06</cbc:ID>
+														<cbc:Name>ReteFuente</cbc:Name>
+													</cac:TaxScheme>
+												</cac:TaxCategory>
+											</cac:TaxSubtotal></cac:WithholdingTaxTotal><cac:Item>
+							<cbc:Description>Outsourcing de Nómina</cbc:Description><cbc:BrandName> </cbc:BrandName>
+							<cbc:ModelName> </cbc:ModelName><cac:StandardItemIdentification>
+									<cbc:ID schemeAgencyID="" schemeID="999" schemeName=""/>
+								</cac:StandardItemIdentification></cac:Item>
+						<cac:Price>
+							<cbc:PriceAmount currencyID="COP">75000.00</cbc:PriceAmount>
+							<cbc:BaseQuantity unitCode="94">6</cbc:BaseQuantity>
+						</cac:Price>
+					</cac:InvoiceLine><cac:InvoiceLine><cbc:ID>3</cbc:ID><cbc:InvoicedQuantity unitCode="94">1</cbc:InvoicedQuantity>
+						<cbc:LineExtensionAmount currencyID="COP">336000.00</cbc:LineExtensionAmount>
+						<cbc:FreeOfChargeIndicator>false</cbc:FreeOfChargeIndicator><cac:TaxTotal>
+								<cbc:TaxAmount currencyID="COP">63840.00</cbc:TaxAmount><cbc:TaxEvidenceIndicator>false</cbc:TaxEvidenceIndicator>
+								<cac:TaxSubtotal>
+									<cbc:TaxableAmount currencyID="COP">336000.00</cbc:TaxableAmount>
+									<cbc:TaxAmount currencyID="COP">63840.00</cbc:TaxAmount>
+									<cac:TaxCategory>
+										<cbc:Percent>19.00</cbc:Percent>
+										<cac:TaxScheme>
+											<cbc:ID>01</cbc:ID>
+											<cbc:Name>IVA</cbc:Name>
+										</cac:TaxScheme>
+									</cac:TaxCategory>
+								</cac:TaxSubtotal>
+							</cac:TaxTotal><cac:WithholdingTaxTotal><cbc:TaxAmount currencyID="COP">2909.76</cbc:TaxAmount><cac:TaxSubtotal>
+												<cbc:TaxableAmount currencyID="COP">336000.00</cbc:TaxableAmount>
+												<cbc:TaxAmount currencyID="COP">2909.76</cbc:TaxAmount>
+												<cac:TaxCategory>
+													<cbc:Percent>0.866</cbc:Percent>
+													<cac:TaxScheme>
+														<cbc:ID>07</cbc:ID>
+														<cbc:Name>ReteICA</cbc:Name>
+													</cac:TaxScheme>
+												</cac:TaxCategory>
+											</cac:TaxSubtotal></cac:WithholdingTaxTotal><cac:WithholdingTaxTotal><cbc:TaxAmount currencyID="COP">36960.00</cbc:TaxAmount><cac:TaxSubtotal>
+												<cbc:TaxableAmount currencyID="COP">336000.00</cbc:TaxableAmount>
+												<cbc:TaxAmount currencyID="COP">36960.00</cbc:TaxAmount>
+												<cac:TaxCategory>
+													<cbc:Percent>11.00</cbc:Percent>
+													<cac:TaxScheme>
+														<cbc:ID>06</cbc:ID>
+														<cbc:Name>ReteFuente</cbc:Name>
+													</cac:TaxScheme>
+												</cac:TaxCategory>
+											</cac:TaxSubtotal></cac:WithholdingTaxTotal><cac:Item>
+							<cbc:Description>Representación Legal</cbc:Description><cbc:BrandName> </cbc:BrandName>
+							<cbc:ModelName> </cbc:ModelName><cac:StandardItemIdentification>
+									<cbc:ID schemeAgencyID="" schemeID="999" schemeName=""/>
+								</cac:StandardItemIdentification></cac:Item>
+						<cac:Price>
+							<cbc:PriceAmount currencyID="COP">336000.00</cbc:PriceAmount>
+							<cbc:BaseQuantity unitCode="94">1</cbc:BaseQuantity>
+						</cac:Price>
+					</cac:InvoiceLine><cac:InvoiceLine><cbc:ID>4</cbc:ID><cbc:InvoicedQuantity unitCode="94">6</cbc:InvoicedQuantity>
+						<cbc:LineExtensionAmount currencyID="COP">174000.00</cbc:LineExtensionAmount>
+						<cbc:FreeOfChargeIndicator>false</cbc:FreeOfChargeIndicator><cac:TaxTotal>
+								<cbc:TaxAmount currencyID="COP">33060.00</cbc:TaxAmount><cbc:TaxEvidenceIndicator>false</cbc:TaxEvidenceIndicator>
+								<cac:TaxSubtotal>
+									<cbc:TaxableAmount currencyID="COP">174000.00</cbc:TaxableAmount>
+									<cbc:TaxAmount currencyID="COP">33060.00</cbc:TaxAmount>
+									<cac:TaxCategory>
+										<cbc:Percent>19.00</cbc:Percent>
+										<cac:TaxScheme>
+											<cbc:ID>01</cbc:ID>
+											<cbc:Name>IVA</cbc:Name>
+										</cac:TaxScheme>
+									</cac:TaxCategory>
+								</cac:TaxSubtotal>
+							</cac:TaxTotal><cac:WithholdingTaxTotal><cbc:TaxAmount currencyID="COP">1506.84</cbc:TaxAmount><cac:TaxSubtotal>
+												<cbc:TaxableAmount currencyID="COP">174000.00</cbc:TaxableAmount>
+												<cbc:TaxAmount currencyID="COP">1506.84</cbc:TaxAmount>
+												<cac:TaxCategory>
+													<cbc:Percent>0.866</cbc:Percent>
+													<cac:TaxScheme>
+														<cbc:ID>07</cbc:ID>
+														<cbc:Name>ReteICA</cbc:Name>
+													</cac:TaxScheme>
+												</cac:TaxCategory>
+											</cac:TaxSubtotal></cac:WithholdingTaxTotal><cac:WithholdingTaxTotal><cbc:TaxAmount currencyID="COP">19140.00</cbc:TaxAmount><cac:TaxSubtotal>
+												<cbc:TaxableAmount currencyID="COP">174000.00</cbc:TaxableAmount>
+												<cbc:TaxAmount currencyID="COP">19140.00</cbc:TaxAmount>
+												<cac:TaxCategory>
+													<cbc:Percent>11.00</cbc:Percent>
+													<cac:TaxScheme>
+														<cbc:ID>06</cbc:ID>
+														<cbc:Name>ReteFuente</cbc:Name>
+													</cac:TaxScheme>
+												</cac:TaxCategory>
+											</cac:TaxSubtotal></cac:WithholdingTaxTotal><cac:Item>
+							<cbc:Description>Outsourcing de Nómina (Otros)</cbc:Description><cbc:BrandName> </cbc:BrandName>
+							<cbc:ModelName> </cbc:ModelName><cac:StandardItemIdentification>
+									<cbc:ID schemeAgencyID="" schemeID="999" schemeName=""/>
+								</cac:StandardItemIdentification></cac:Item>
+						<cac:Price>
+							<cbc:PriceAmount currencyID="COP">29000.00</cbc:PriceAmount>
+							<cbc:BaseQuantity unitCode="94">6</cbc:BaseQuantity>
+						</cac:Price>
+					</cac:InvoiceLine></Invoice>
